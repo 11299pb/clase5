@@ -21,7 +21,7 @@ abstract class Medicamento{
          self::$empresa;
     }
 
-    public function getInfo(): void{
+    private function getInfo(): void{
         echo "la farmacia cuenta con  $this->Jarabe en jarabe y cuenta con $this->tipo cantidades";
 
     }
